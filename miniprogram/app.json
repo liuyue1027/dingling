@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00796b",
+    "navigationBarTitleText": "叮铃约课",
+    "navigationBarTextStyle": "white",
+    "backgroundColorBottom":"#f8fbf8",
+    "enablePullDownRefresh":false,
+    "pageOrientation":"portrait"
+  },
+  "tabBar": {
+    "selectedColor": "#00796b",
+    "":"",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "课程",
+        "iconPath": "images/icons/calendar_81_2c2c2c.png",
+        "selectedIconPath": "images/icons/calendar-fill_81_00796b.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "个人中心",
+        "iconPath": "images/icons/user_81_2c2c2c.png",
+        "selectedIconPath": "images/icons/user_81_00796b.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "sitemapLocation": "sitemap.json"
+}
