@@ -1,5 +1,14 @@
 <!--index.wxml-->
 <view class="container">
+  <view class="recent">
+    <text class="title">最近课程</text>
+    <view class="classes">
+      <view class="classes-item c-row">
+        <view class="c-span2">AAAAAAAAAAAAAAAAAAAAAAAAA</view>
+        <view class="c-span10">BBBBBBBBBBBBBBBBBBBBBBBBBBBB</view>
+      </view>
+    </view>
+  </view>
   <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>

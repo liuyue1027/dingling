@@ -1,10 +1,34 @@
 /**app.wxss**/
 .container {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 200rpx 0;
-  box-sizing: border-box;
-} 
+  margin: 0;
+  padding: 0;
+}
+.c-row{
+  display: block;
+  margin-left: -2%;
+  margin-right:-2%;
+  width: auto; 
+  box-sizing:border-box;
+}
+.c-span1,.c-span2,.c-span3,.c-span4,.c-span5,.c-span6,.c-span7,.c-span8,.c-span9,.c-span10,.c-span11,.c-span12 {
+  position:relative;
+  display: inline-block;
+  padding-left: 2%;
+  padding-right:2%;
+  min-height:30px;
+  overflow: hidden;
+  box-sizing:border-box;
+  
+}
+.c-span1 {width:8.33333333%;}
+.c-span2 {width:16.66666667%;}
+.c-span3 {width:25%;}
+.c-span4 {width:33.33333333%;}
+.c-span5 {width:41.66666667%;}
+.c-span6 {width:50%;}
+.c-span7 {width:58.33333333%;}
+.c-span8 {width:66.66666667%;}
+.c-span9 {width:75%;}
+.c-span10 {width:83.33333333%;}
+.c-span11 {width:91.66666667%;}
+.c-span12 {width:100%;}
